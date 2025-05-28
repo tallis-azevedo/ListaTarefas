@@ -58,6 +58,8 @@ lista-tarefas/
 
 
 ## Integrantes do Grupo
+
+```
 - Tallis Azevedo
 - Guilherme Miranda
 - Nicolas Errini
