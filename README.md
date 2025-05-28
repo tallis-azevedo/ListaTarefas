@@ -1,12 +1,65 @@
-# React + Vite
+# Lista de Tarefas com React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+Este projeto consiste em uma **Lista de Tarefas** desenvolvida em React, permitindo aos usuários adicionar, marcar como concluídas e remover tarefas de forma dinâmica.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias
 
-## Expanding the ESLint configuration
+* React
+* Tailwind CSS (opcionalmente removido conforme necessidade)
+* React Icons
+* Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalação
+
+1. Clone este repositório:
+
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   ```
+2. Navegue até a pasta do projeto:
+
+   ```bash
+   cd lista-tarefas
+   ```
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+## Executar em modo de desenvolvimento
+
+Para iniciar o servidor de desenvolvimento, execute:
+
+```bash
+npm run dev
+```
+
+Abra [http://localhost:5173](http://localhost:5173) no seu navegador.
+
+## Estrutura de Pastas
+
+```
+lista-tarefas/
+├── public/           # Arquivos estáticos
+├── src/              # Código-fonte
+│   ├── components/   # Componentes React (TodoInput, TodoItem)
+│   ├── App.jsx       # Componente principal
+│   ├── main.jsx      # Ponto de entrada
+│   └── index.css     # Tailwind CSS
+├── .gitignore
+├── package.json
+├── postcss.config.cjs
+├── tailwind.config.cjs
+└── vite.config.js
+```
+
+
+## Integrantes do Grupo
+- Tallis Azevedo
+- Guilherme Miranda
+- Nicolas Errini
+
+```
